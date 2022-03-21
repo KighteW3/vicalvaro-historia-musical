@@ -250,7 +250,6 @@ nav {
 
 .second__article {
     width: 100%;
-    height: 1000px;
     background: linear-gradient(to top, #222, #eee);
     display: grid;
     grid-template-columns: 1fr;
@@ -267,6 +266,56 @@ nav {
 .vicálvaro__title {
     font-size: x-large;
     background-color: #fafafa;
+    border-top: 10px solid #555;
+    border-bottom: 10px solid #555;
+    border-radius: 13px;
+}
+
+.vicálvaro__title h1 {
+    margin: 5px;
+}
+
+.vicálvaro__text__sub-container {
+    width: 100%;
+    height: 100%;
+}
+
+.vicálvaro__text {
+    font-size: x-large;
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vicálvaro__text__border {
+    width: 100%;
+    height: 10px;
+    background-color: #555;
+}
+
+.vicálvaro__text__inside {
+    width: 90%;
+    height: 90%;
+}
+
+.vicálvaro__image__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vicálvaro__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vicálvaro__image img {
+    width: 60%;
+    border-radius: 20px;
 }
 
 
