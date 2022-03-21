@@ -1,3 +1,8 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #999;
 }
@@ -5,6 +10,12 @@ body {
 .viewport {
     width: 100vw;
     height: 100vh;
+}
+
+.links__default {
+    text-decoration: none;
+    color:inherit;
+    border-radius: inherit;
 }
 
 nav {
@@ -105,6 +116,7 @@ nav {
 
 .first__article{
     background-color: #eee;
+    color: #000;
 }
 
 .presentation__title{
@@ -172,7 +184,11 @@ nav {
     border-radius: 13px;
 }
 
-.inside__content:hover > .inside__content__image{
+.inside__content__link {
+    margin: 0;
+}
+
+.inside__content__link:hover > .inside__content__image{
     background-position: bottom;
     transition: 1s;
 }
@@ -187,11 +203,9 @@ nav {
     border-radius: inherit;
 }
 
-.inside__content__image:hover {
-}
-
 .inside__content p {
-    margin: 10px 15px 10px 15px;
+    margin: 0;
+    padding: 10px 15px 10px 15px;
 }
 
 /* .inside__content1 {
@@ -338,4 +352,8 @@ nav {
 .content__title {
     font-size: xx-large;
     color: #fff;
+}
+
+#content__title__scroll {
+    background-color: none;
 }
