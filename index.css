@@ -257,13 +257,13 @@ nav {
     grid-gap: 12px solid black;
 }
 
-.vicálvaro__title__container {
+.vicalvaro__title__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.vicálvaro__title {
+.vicalvaro__title {
     font-size: x-large;
     background-color: #fafafa;
     border-top: 10px solid #555;
@@ -271,16 +271,16 @@ nav {
     border-radius: 13px;
 }
 
-.vicálvaro__title h1 {
+.vicalvaro__title h1 {
     margin: 5px;
 }
 
-.vicálvaro__text__sub-container {
+.vicalvaro__text__sub-container {
     width: 100%;
     height: 100%;
 }
 
-.vicálvaro__text {
+.vicalvaro__text {
     font-size: x-large;
     width: 100%;
     height: 100%;
@@ -290,30 +290,30 @@ nav {
     align-items: center;
 }
 
-.vicálvaro__text__border {
+.vicalvaro__text__border {
     width: 100%;
     height: 10px;
     background-color: #555;
 }
 
-.vicálvaro__text__inside {
+.vicalvaro__text__inside {
     width: 90%;
     height: 90%;
 }
 
-.vicálvaro__image__container {
+.vicalvaro__image__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.vicálvaro__image {
+.vicalvaro__image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.vicálvaro__image img {
+.vicalvaro__image img {
     width: 60%;
     border-radius: 20px;
 }
