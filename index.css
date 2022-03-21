@@ -250,7 +250,7 @@ nav {
 
 .second__article {
     width: 100%;
-    background: linear-gradient(to top, #222, #eee);
+    background: linear-gradient(to top, #000, #eee);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px 1fr 1fr;
@@ -316,6 +316,12 @@ nav {
 .vicalvaro__image img {
     width: 60%;
     border-radius: 20px;
+}
+
+.third__article {
+    height: 1000px;
+    width: 100%;
+    background: #000;
 }
 
 
