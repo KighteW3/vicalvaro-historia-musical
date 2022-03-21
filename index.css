@@ -203,6 +203,10 @@ nav {
     border-radius: inherit;
 }
 
+.inside__content__image3 {
+    background-image: url(pablo.jpeg);
+}
+
 .inside__content p {
     margin: 0;
     padding: 10px 15px 10px 15px;
