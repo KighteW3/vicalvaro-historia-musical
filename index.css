@@ -172,6 +172,11 @@ nav {
     border-radius: 13px;
 }
 
+.inside__content:hover > .inside__content__image{
+    background-position: bottom;
+    transition: 1s;
+}
+
 
 .inside__content__image{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.liebherr.com%2Fappliances%2Fus%2Fwp-content%2Fuploads%2Fsites%2F3%2F2016%2F04%2Fpanthermedia_B52633115_1748x1165.jpg&f=1&nofb=1");
@@ -183,8 +188,6 @@ nav {
 }
 
 .inside__content__image:hover {
-    background-position: bottom;
-    transition: 1s;
 }
 
 .inside__content p {
