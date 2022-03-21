@@ -336,7 +336,6 @@ nav {
 }
 
 .third__article {
-    height: 1000px;
     width: 100%;
     background: #000;
 }
@@ -356,4 +355,27 @@ nav {
 
 #content__title__scroll {
     background-color: none;
+}
+
+.aun__en__desarrollo {
+    font-size: xx-large;
+    background-color: none;
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.pablo {
+    color: #999;
+    background: #222;
+}
+
+.izan {
+    color: #999;
+    background: #222;
+}
+
+.dario {
+    color: #999;
+    background: #222;
 }
