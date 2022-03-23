@@ -503,3 +503,14 @@ nav {
     color: #eee;
     text-decoration: underline;
 }
+
+#pablo__casado {
+    width: 50%;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: #eee;
+    text-align: center;
+    font-size: 41.4px;
+    background-color: none;
+}
