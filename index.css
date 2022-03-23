@@ -195,12 +195,15 @@ nav {
 
 
 .inside__content__image{
-    background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FzvqohB4ot9M%2Fmaxresdefault.jpg&sp=1647993381T398610d8f456a2d05d33027de57a0b6edbc0b24cfe1fa896cdae481d8512036b");
     width: 100%;
     height: 150px;
     background-size: contain;
     background-size: cover;
     border-radius: inherit;
+}
+
+.inside__content__image1 {
+    background-image: url("https://www.fayerwayer.com/resizer/3i3-_Q7tMkqZjNW8VoKZ3MAQ16Y=/arc-photo-metroworldnews/arc2-prod/public/DYVWKN5WHNBYZBULBAR77AOOB4.jpg");
 }
 
 .inside__content__image2{
