@@ -477,3 +477,24 @@ nav {
     align-items: center;
     font-size: x-large;
 }
+
+.separator {
+    height: 200px;
+    width: 100%;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    border-top: 10px solid #ef0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eee;
+}
+
+.footer a {
+    color: #eee;
+    text-decoration: underline;
+}
