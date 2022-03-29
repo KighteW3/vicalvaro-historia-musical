@@ -397,7 +397,7 @@ nav {
 }
 
 .box__text__title {
-    height: 100%;
+    height: 90%;
     width: 100%;
     font-size: xx-large;
     text-align: center;
@@ -580,6 +580,12 @@ nav {
     .box__text__text {
         font-size: large;
     }
+    .participants__all {
+        flex-direction: column;
+    }
+    .all__image {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 692px) {
@@ -588,5 +594,38 @@ nav {
     }
     .presentation__title{
         font-size: x-large;
+    }
+    .presentation__content__container{
+        width: 90%;
+    }
+    .presentation__introduction__container{
+        width: 98%;
+    }
+    .border-top__P__C{
+        top: 40px;
+    }
+    .border-top__P__I{
+        top: 40px;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    .second__article {
+        grid-template-rows: 200px 1fr 350px;
+    }
+    .content__title__container {
+        height: auto;
+    }
+    .content__box {
+        width: 100%;
+    }
+    .box__text__text {
+        margin: 80px 20px 80px 20px;
+    }
+    .participants__title {
+        font-size: x-large;
+    }
+    .footer {
+        font-size: small;
     }
 }
