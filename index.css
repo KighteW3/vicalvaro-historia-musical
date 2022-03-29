@@ -514,3 +514,41 @@ nav {
     font-size: 41.4px;
     background-color: none;
 }
+
+@media only screen and (max-width: 948px) {
+    .nav__content__container{
+        justify-content: center;
+    }
+    .nav__content__container__2{
+        margin: 0;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .nav__content__link{
+        font-size: large;
+    }
+    .presentation__title{
+        font-size: x-large;
+    }
+    .first__article__presentation{
+        height: auto;
+    }
+    .presentation__content__container{
+        width: 70%;
+    }
+    .presentation__container{
+        flex-direction: column;
+    }
+    .presentation__introduction__container{
+        width: 70%;
+    }
+    .border-top__P__C{
+        top: 40px;
+    }
+    .border-top__P__I{
+        top: 40px;
+    }
+    .presentation__introduction__image{
+        height: 400px;
+    }
+}
