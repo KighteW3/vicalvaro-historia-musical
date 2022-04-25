@@ -632,6 +632,40 @@ nav {
         font-size: x-large;
     }
     .footer {
-        font-size: smal;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+    .presentation__title{
+        font-size: large;
+    }
+    .presentation__content{
+        width: 100%;
+    }
+    .inside__content__image{
+        background-position: center;
+    }
+    .inside__content__link:hover > .inside__content__image{
+        background-position: center;
+        transition: none;
+    }
+    .presentation__content{
+        background: none;
+    }
+    .presentation__content__container{
+        width: 100%;
+    }
+    .participants__title{
+        font-size: 20px;
+    }
+    .participants__all{
+        border-left: none;
+        border-top: 10px solid #ef0;
+        border-radius: 0 0 18px 18px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
     }
 }
