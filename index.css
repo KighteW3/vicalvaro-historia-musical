@@ -662,7 +662,7 @@ nav {
     .participants__all{
         border-left: none;
         border-top: 10px solid #ef0;
-        border-radius: 0 0 19px 19px;
+        border-radius: 0 0 18px 18px;
     }
     .footer{
         display: flex;
